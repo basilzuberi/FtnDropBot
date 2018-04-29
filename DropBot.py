@@ -29,4 +29,5 @@ async def on_message(msg):
         await bot.send_message(msg.channel, "<@{}> I believe your drop location should be {}!".format(userID,DROPS[DropLocation]))
 
 
-bot.run("NDQwMDA0NTU2ODk0NjM0MDE1.DcbaNw.OmPDkKRzaegTj9rIDNHGskrblyo")
+bot.run(os.environ['BOT_TOKEN'])
+
