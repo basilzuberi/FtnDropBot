@@ -4,6 +4,7 @@ from discord.ext import commands
 import asyncio
 import time
 from random import randint
+import os
 
 bot = commands.Bot(command_prefix='^', description='Type ^drop to get a random drop location!')
 
