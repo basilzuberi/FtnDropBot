@@ -16,7 +16,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(msg):
-    DROPS = ["Anarchy Acers","Junk Junction","Haunted Hills","Pleasant Park","Loot Lake","Wailing Woods","Tomato Town","Lonely Lodge","Snobby Shores","Tilted Towers","Dusty Depot","Retail Row","Greasy Grove","Shifty Shafts", "Salty Springs", "Flush Factory","Fatal Fields","Moisty Mire","Prison"]
+    DROPS = ["Trailer Park","Motel","Broken Houses near Motel","Old Factory (Flush)","New Factory (Salty)","Cargo Yard","Anarchy Acers","Junk Junction","Haunted Hills","Pleasant Park","Loot Lake","Wailing Woods","Tomato Town","Lonely Lodge","Snobby Shores","Tilted Towers","Dusty Depot","Retail Row","Greasy Grove","Shifty Shafts", "Salty Springs", "Flush Factory","Fatal Fields","Moisty Mire","Prison"]
     if msg.content.upper().startswith("^DROP"):
         
         DropLocation = randint(0,len(DROPS))
