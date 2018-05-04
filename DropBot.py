@@ -16,8 +16,8 @@ async def on_ready():
 
 @bot.event
 async def on_message(msg):
-    DROPS = ["Risky Reels","Race Track","Chair Town","Soccer City","Trailer Park","Motel","Broken Houses near Motel","Old Factory (Salty)","New Factory (Flush)",+/
-             "Cargo Yard","Anarchy Acers","Junk Junction","Haunted Hills","Pleasant Park","Loot Lake","Wailing Woods","Tomato Town","Lonely Lodge","Snobby Shores",+/
+    DROPS = ["Risky Reels","Race Track","Chair Town","Soccer City","Trailer Park","Motel","Broken Houses near Motel","Old Factory (Salty)","New Factory (Flush)",
+             "Cargo Yard","Anarchy Acers","Junk Junction","Haunted Hills","Pleasant Park","Loot Lake","Wailing Woods","Tomato Town","Lonely Lodge","Snobby Shores",
              "Tilted Towers","Dusty Divot","Retail Row","Greasy Grove","Shifty Shafts", "Salty Springs", "Flush Factory","Fatal Fields","Moisty Mire","Prison"]
     if msg.content.upper().startswith("^DROP"):
         
