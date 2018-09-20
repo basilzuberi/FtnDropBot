@@ -10,6 +10,7 @@ bot = commands.Bot(command_prefix='^', description='Type ^drop to get a random d
 
 @bot.event
 async def on_ready():
+    
     print("DropBot Ready to go!")
 
     await bot.change_presence(game=discord.Game(name='^drop'))
